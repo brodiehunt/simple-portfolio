@@ -1,8 +1,20 @@
-# React + Vite
+# Brodie Hunt - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my portfolio website showcasing my most recent projects and work.
+The design is based of a figma file provided by Frontend Mentor
 
-Currently, two official plugins are available:
+### Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Github URL: [Code here](https://github.com/brodiehunt/simple-portfolio)
+- Live Site URL: [Portfolio](https://brodie-hunt-portfolio.netlify.app/)
+
+### Built with
+
+- FormSpree
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Styled Components](https://styled-components.com/) - For styles
+
+### Screenshot
+
+![Portfolio](./docs/screenshot.png)
