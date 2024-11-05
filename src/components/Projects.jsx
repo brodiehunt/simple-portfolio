@@ -16,6 +16,7 @@ const projects = [
     liveSite: "https://brodie-chatter-app.netlify.app/",
     github: "https://github.com/brodiehunt/live-messenger-server",
     img: chatterImg,
+    alt: "Screenshot of a live messenger application homepage",
     tech: [
       "react",
       "express",
@@ -32,6 +33,7 @@ const projects = [
     title: "Code.Sydney Organisation Website",
     liveSite: "https://www.code.sydney/",
     github: "https://github.com/codesydney/Code.Sydney-Website",
+    alt: "Screenshot of the Code.Sydney website hompage",
     img: codeSydneyImg,
     tech: [
       "NextJS",
@@ -47,6 +49,7 @@ const projects = [
     liveSite: "https://brodie-audiophile.vercel.app/",
     github: "https://github.com/brodiehunt/audiophile",
     img: audiophileImg,
+    alt: "Screenshot of the Audiophile project homepage",
     tech: ["nextJS", "css modules", "express", "mongodb", "stripe", "SSG"],
   },
   {
@@ -54,6 +57,7 @@ const projects = [
     liveSite: "https://www.ustaa.au/",
     github: "https://github.com/codesydney/classified-ads-app-for-good",
     img: classifiedAdsApp,
+    alt: "Screenshot of the UST Alumni Australia Website",
     tech: [
       "react",
       "redux",
@@ -72,6 +76,7 @@ const projects = [
     liveSite: "https://brodie-designo-studios.netlify.app/",
     github: "https://github.com/brodiehunt/designo-studio",
     img: designoImg,
+    alt: "Screenshot of the Designo Studios project homepage",
     tech: [
       "react",
       "styled-components",
@@ -85,6 +90,7 @@ const projects = [
     liveSite: "https://brodiehunt-shopping-cart.netlify.app/",
     github: "https://github.com/brodiehunt/shopping-cart",
     img: shoppingCartImg,
+    alt: "Screenshot of the Retail shop project homepage",
     tech: ["react", "framer-motion", "API"],
   },
   {
@@ -92,6 +98,7 @@ const projects = [
     liveSite: "https://brodiehunt-memory-game.netlify.app/",
     github: "https://github.com/brodiehunt/memory-game",
     img: memoryImg,
+    alt: "Screenshot of the Memory Game",
     tech: ["react", "styled-components"],
   },
   {
@@ -99,6 +106,7 @@ const projects = [
     liveSite: "https://brodiehunt-tic-tac-toe.netlify.app/",
     github: "https://github.com/brodiehunt/tic-tac-toe",
     img: tictactoeImg,
+    alt: "Screenshot of the Tic Tac Toe Game",
     tech: ["react", "CSS"],
   },
   {
@@ -106,6 +114,7 @@ const projects = [
     liveSite: "http://www.jarrahbuild.com.au/index.html",
     github: "",
     img: jarrahBuildImg,
+    alt: "Screenshot of Jarrahbuild company website",
     tech: ["HTML", "CSS", "Javascript", "Bootstrap"],
   },
 ];

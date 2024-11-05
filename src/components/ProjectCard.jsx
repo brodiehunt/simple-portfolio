@@ -1,30 +1,38 @@
-
-import Link from "./Link"
-export default function ProjectCard({project}) {
-
+import Link from "./Link";
+export default function ProjectCard({ project }) {
   return (
     <article className="project-card">
       <div className="project-img-container">
-        <img src={project.img} alt={`${project.title} screenshot`} />
+        <img src={project.img} alt={project.alt} />
       </div>
       <div className="card-info">
         <h3 className="project-title">{project.title}</h3>
         <div className="tech-stack">
           {project.tech.map((item, index) => {
             return (
-              <div key={index} className="tech">{item}</div>
-            )
+              <div key={index} className="tech">
+                {item}
+              </div>
+            );
           })}
         </div>
         <div className="buttons-container">
-          <Link url={project.liveSite} label={`Go to ${project.title} live site`}>
+          <Link
+            url={project.liveSite}
+            newTab={true}
+            label={`Go to ${project.title} live site`}
+          >
             View Project
           </Link>
-          <Link url={project.github} label={`Go to ${project.title} github repository`}>
+          <Link
+            url={project.github}
+            newTab={true}
+            label={`Go to ${project.title} github repository`}
+          >
             View Code
           </Link>
         </div>
       </div>
     </article>
-  )
+  );
 }
